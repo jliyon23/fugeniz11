@@ -1,9 +1,13 @@
 import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import FixedElements from './components/FixedElements';
 import NavBar from './components/Navbar';
+import EventsCategory from './components/EventsCategory';
+import EventsList from './components/EventsList';
+import EventDetails from './components/EventDetails';
 
 function App() {
   useEffect(() => {
@@ -12,7 +16,6 @@ function App() {
     setTimeout(() => {
       if (title) {
         title.style.transition = "all 1s ease";
-       
       }
     }, 1000);
     
@@ -31,14 +34,25 @@ function App() {
   }, []);
 
   return (
-    <div className="app">
-      <FixedElements />
-      
-      <div className="content-container">
-        <HeroSection />
-        <AboutSection />
+    <Router>
+      <div className="app">
+        <FixedElements />
+        
+        <div className="content-container">
+          <Routes>
+            <Route path="/" element={
+              <>
+                <HeroSection />
+                <AboutSection />
+                
+              </>
+            } />
+            <Route path="/events/:categoryId" element={<EventsList />} />
+            <Route path="/events/:categoryId/:eventId" element={<EventDetails />} />
+          </Routes>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 

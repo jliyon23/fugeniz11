@@ -44,7 +44,7 @@ const HeroSection = () => {
         alt=""
         className="absolute bottom-0 left-1/2 md:top-0 top-1/3 -translate-x-1/2 w-full max-w-2xl opacity-60 z-0 transform -rotate-90"
       />
-    </div>
+      </div>
   );
 };
 

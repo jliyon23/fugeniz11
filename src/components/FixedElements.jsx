@@ -59,8 +59,8 @@ const FixedElements = () => {
       <div className="fixed inset-y-0 right-0 w-6 bg-gold-gradient opacity-20 z-50"></div> */}
       
       {/* Fixed corner decorations */}
-      <div className="fixed top-8 right-8 w-24 h-24 border-t-2 border-r-2 border-gold opacity-70 z-50"></div>
-      <div className="fixed bottom-8 left-8 w-24 h-24 border-b-2 border-l-2 border-gold opacity-70 z-50"></div>
+      <div className="fixed top-4 md:top-8 md:right-8 right-4 w-24 h-24 border-t-2 border-r-2 border-gold opacity-50 z-50"></div>
+      <div className="fixed bottom-4 md:bottom-8 md:left-8 left-4 w-24 h-24 border-b-2 border-l-2 border-gold opacity-50 z-50"></div>
       
       {/* Fixed roulette wheels */}
       <div className="roulette-wheel spin-slow top-16 right-16 opacity-60 hidden  md:block z-40">
