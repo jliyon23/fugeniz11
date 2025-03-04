@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Cinzel:wght@400;700;900&family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes shimmer {
+  0% { box-shadow: 0 0 5px #d4af37, 0 0 10px #d4af37; }
+  50% { box-shadow: 0 0 20px #d4af37, 0 0 30px #d4af37; }
+  100% { box-shadow: 0 0 5px #d4af37, 0 0 10px #d4af37; }
+}
+
+@keyframes subtle-pulse {
+  0% { opacity: 0.9; }
+  50% { opacity: 1; }
+  100% { opacity: 0.9; }
+}
+
+@keyframes slowSpin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes float {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(10px, 15px); }
+  50% { transform: translate(20px, 0); }
+  75% { transform: translate(5px, -15px); }
+  100% { transform: translate(0, 0); }
+}
+
+@keyframes moveAround {
+  0% { 
+      top: var(--initialTop); 
+      left: var(--initialLeft); 
+  }
+  25% { 
+      top: calc(var(--initialTop) + var(--yDistance)); 
+      left: calc(var(--initialLeft) + var(--xDistance));
+  }
+  50% { 
+      top: calc(var(--initialTop) + var(--yDistance)); 
+      left: calc(var(--initialLeft) - var(--xDistance)); 
+  }
+  75% { 
+      top: calc(var(--initialTop) - var(--yDistance)); 
+      left: calc(var(--initialLeft) - var(--xDistance));
+  }
+  100% { 
+      top: var(--initialTop); 
+      left: var(--initialLeft); 
+  }
+}
+
+.title-font {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+}
+
+.subtitle-font {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 3px;
+}
+
+.body-font {
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 1px;
+}
+
+
+.shimmer-effect {
+  animation: shimmer 3s infinite ease-in-out;
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.subtle-pulse {
+  animation: subtle-pulse 4s infinite ease-in-out;
+}
+
+.spin-slow {
+  animation: slowSpin 10s infinite linear;
+}
+
+.float-animation {
+  animation: float 10s infinite ease-in-out;
+}
+
+.card-suit {
+  position: fixed;
+  font-size: 4rem;
+  color: #d4af37;
+  opacity: 0.15;
+  z-index: 5;
+  pointer-events: none;
+  animation: moveAround 30s infinite ease-in-out;
+}
+
+.damask-pattern {
+  background-image: url("./images//bg.png");
+}
+
+.roulette-wheel {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+ 
+  
+}
+
+.roulette-wheel::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+
+}
+
+.roulette-wheel::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #d4af37 0%, #f2d272 50%, #d4af37 100%);
+}
+
+.border-gold {
+  border-color: #d4af37;
+}
+
+.text-gold {
+  color: #d4af37;
+}
+
+body {
+  background-color: #1a0d06; /* Darkened from #2c1a0e */
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d4af37' fill-opacity='0.04' fill-rule='evenodd'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/svg%3E");
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.retro-gradient {
+  background: linear-gradient(to bottom, #1a0d06 0%, #0d0704 100%); /* Darkened gradient */
+}
+
+.content-container {
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100%;
+  padding: 0px;
+  z-index: 10;
+}
+
+.about-section {
+  position: relative;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  animation: fadeIn 1s ease-in-out 1s both;
+}
+
+.gold-underline {
+  position: relative;
+}
+
+.gold-underline:after {
+  content: '';
+  position: absolute;
+  left: 10%;
+  bottom: -10px;
+  width: 80%;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, #d4af37, transparent);
+}
+
+.ornate-divider {
+  position: relative;
+  height: 30px;
+  margin: 40px 0;
+}
+
+.ornate-divider:before {
+  content: '♦';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #d4af37;
+  font-size: 24px;
+}
+
+.ornate-divider:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, #d4af37, transparent);
+}
