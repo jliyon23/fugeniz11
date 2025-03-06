@@ -7,7 +7,9 @@ import FixedElements from './components/FixedElements';
 import NavBar from './components/Navbar';
 import EventsCategory from './components/EventsCategory';
 import EventsList from './components/EventsList';
-import EventDetails from './components/EventDetails';
+import EventListPage from './components/events/EventsListPage';
+import EventDetailsPage from './components/events/EventDetails';
+import EventPage from './components/events/EventPage';
 
 function App() {
   useEffect(() => {
@@ -18,6 +20,8 @@ function App() {
         title.style.transition = "all 1s ease";
       }
     }, 1000);
+
+   
     
     // Smooth scroll for any anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -47,8 +51,9 @@ function App() {
                 
               </>
             } />
-            <Route path="/events/:categoryId" element={<EventsList />} />
-            <Route path="/events/:categoryId/:eventId" element={<EventDetails />} />
+            <Route path='/events' element={<EventPage />} />
+            <Route path="/events/:category" element={<EventListPage />} />
+            <Route path="/events/:category/:eventId" element={<EventDetailsPage />} />
           </Routes>
         </div>
       </div>

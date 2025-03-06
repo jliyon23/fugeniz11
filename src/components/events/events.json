@@ -1,0 +1,156 @@
+{
+    "workshop": [
+        {
+            "id": 1,
+            "name": "AI & Machine Learning",
+            "description": "Hands-on workshop on AI and ML fundamentals.",
+            "date": "2025-06-01",
+            "time": "10:00 AM",
+            "location": "Lab 1",
+            "image": "src/images/events/workshop-ai.jpg",
+            "link": "https://forms.gle/workshop-ai"
+        },
+        {
+            "id": 2,
+            "name": "Blockchain & Web3",
+            "description": "Introduction to blockchain, smart contracts, and Web3 development.",
+            "date": "2025-06-02",
+            "time": "11:00 AM",
+            "location": "Hall B",
+            "image": "src/images/events/workshop-blockchain.jpg",
+            "link": "https://forms.gle/workshop-blockchain"
+        }
+    ],
+    "hackathon": [
+        {
+            "id": 1,
+            "name": "Cyber Security Challenge",
+            "description": "24-hour ethical hacking competition.",
+            "date": "2025-06-05",
+            "time": "9:00 AM",
+            "location": "Main Auditorium",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/hackathon-cyber"
+        },
+        {
+            "id": 2,
+            "name": "AI Hackathon",
+            "description": "Build AI-driven applications in a 48-hour hackathon.",
+            "date": "2025-06-06",
+            "time": "10:00 AM",
+            "location": "Innovation Hub",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/hackathon-ai"
+        }
+    ],
+    "esports": [
+        {
+            "id": 1,
+            "name": "Valorant Tournament",
+            "description": "5v5 team-based tactical FPS tournament.",
+            "date": "2025-06-10",
+            "time": "4:00 PM",
+            "location": "Gaming Arena",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/esports-valorant"
+        },
+        {
+            "id": 2,
+            "name": "FIFA 24 Championship",
+            "description": "Compete in FIFA 24 and become the champion.",
+            "date": "2025-06-11",
+            "time": "2:00 PM",
+            "location": "Game Zone",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/esports-fifa"
+        }
+    ],
+    "competitions": [
+        {
+            "id": 1,
+            "name": "Coding Battle",
+            "description": "Competitive programming contest with exciting challenges.",
+            "date": "2025-06-15",
+            "time": "10:00 AM",
+            "location": "Computer Lab",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/competition-coding"
+        },
+        {
+            "id": 2,
+            "name": "Tech Quiz",
+            "description": "Test your tech knowledge in this rapid-fire quiz competition.",
+            "date": "2025-06-16",
+            "time": "3:00 PM",
+            "location": "Seminar Hall",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/competition-quiz"
+        }
+    ],
+    "funzone": [
+        {
+            "id": 1,
+            "name": "Treasure Hunt",
+            "description": "Solve clues and complete challenges to find the hidden treasure.",
+            "date": "2025-06-20",
+            "time": "1:00 PM",
+            "location": "Campus Grounds",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/funzone-treasure"
+        },
+        {
+            "id": 2,
+            "name": "Minute to Win It",
+            "description": "Fun challenges to complete in under a minute.",
+            "date": "2025-06-21",
+            "time": "2:00 PM",
+            "location": "Activity Center",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/funzone-minute"
+        }
+    ],
+    "cultural": [
+        {
+            "id": 1,
+            "name": "Dance Battle",
+            "description": "Showcase your best moves in a high-energy dance battle.",
+            "date": "2025-06-25",
+            "time": "5:00 PM",
+            "location": "Cultural Stage",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/cultural-dance"
+        },
+        {
+            "id": 2,
+            "name": "Music Fest",
+            "description": "Live music performances by talented artists.",
+            "date": "2025-06-26",
+            "time": "6:00 PM",
+            "location": "Main Auditorium",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/cultural-music"
+        }
+    ],
+    "discussions": [
+        {
+            "id": 1,
+            "name": "Tech Trends 2025",
+            "description": "Panel discussion on upcoming technology trends.",
+            "date": "2025-06-30",
+            "time": "11:00 AM",
+            "location": "Conference Hall",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/discussion-tech"
+        },
+        {
+            "id": 2,
+            "name": "Entrepreneurship Talk",
+            "description": "Learn from successful entrepreneurs and startup founders.",
+            "date": "2025-07-01",
+            "time": "1:00 PM",
+            "location": "Innovation Hub",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/discussion-entrepreneur"
+        }
+    ]
+}

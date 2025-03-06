@@ -4,6 +4,7 @@ import OrnateDevider from './OrnateDevider';
 import FeatureCard from './FeatureCard';
 import EventsCategory from './EventsCategory';
 import ContactForm from './ContactForm';
+import { Link } from 'react-router-dom';
 
 const AboutSection = () => {
   const features = [
@@ -43,13 +44,15 @@ const AboutSection = () => {
   return (
     <div className="about-section max-w-4xl mx-auto px-8 md:px-4">
       <motion.h2 
+      id='about'
         className="title-font text-4xl text-gold mb-12 text-center gold-underline"
         {...fadeInUp}
+
       >
         FUGENIZ.11
       </motion.h2>
       
-      <div className="body-font text-lg text-gray-300 space-y-6 text-center">
+      <div  className="body-font text-lg text-gray-300 space-y-6 text-center">
         <motion.p {...fadeInUp}>
         Fugeniz.11 is an electrifying tech-centric college fest that celebrates innovation and imagination. It offers hackathons, coding marathons, and workshops, fostering a culture of innovation. Participants are encouraged to push the boundaries of what's possible and bridge the gap between theory and practice through hands-on experiences. Gamers can enjoy thrilling tournaments in the gaming arena, catering to casual gamers and esports enthusiasts alike. FugenizX invites everyone to be part of the technological revolution, daring to dream, innovate, and transcend boundaries, shaping the future today.
         </motion.p>
@@ -64,12 +67,13 @@ const AboutSection = () => {
         <motion.h2 
         className="title-font text-4xl text-gold mb-12 text-center "
         {...fadeInUp}
+        id='theme'
       >
         THEME
       </motion.h2>
 
-        <div className="">
-          <p className="italic text-gold text-xl text-center">"Green Technology Sustaining Innovation:
+        <div  className="">
+          <p  className="italic text-gold text-xl text-center">"Green Technology Sustaining Innovation:
           Highlight Sustainable and Eco-friendly Technology"</p>
           <p className='mt-3 text-center'>Sustainable and eco-friendly technology plays a pivotal role in enhancing the significance of Fugeniz X Tech Fest. It not only aligns with the fest's core values of innovation and progress but also underscores the importance of responsible technological advancement. By showcasing cutting-edge green tech solutions, the fest empowers attendees to appreciate the potential of environmentally friendly innovations. These technologies offer solutions to pressing global challenges, from renewable energy to waste reduction, fostering a sense of responsibility towards our planet. In essence, they transform the tech fest into a catalyst for both learning and action, emphasizing the crucial role sustainability plays in our future.</p>
           
@@ -92,9 +96,9 @@ const AboutSection = () => {
           className="mt-1 text-center"
           {...fadeInUp}
         >
-          <button className="body-font bg-red-900 border-2 border-red-900 text-white hover:bg-red-800 px-8 py-3 text-xl transition-all duration-500 mx-auto">
+          <Link to={'/events'} className="body-font bg-red-900 border-2 border-red-900 text-white hover:bg-red-800 px-8 py-3 text-xl transition-all duration-500 mx-auto">
               VIEW MORE EVENTS
-          </button>
+          </Link>
         </motion.div>
 
         <OrnateDevider />
@@ -128,6 +132,7 @@ const AboutSection = () => {
           variants={staggerContainer}
           initial="initial"
           whileInView="whileInView"
+          id='sponsors'
         >
           {features.map((feature, index) => (
             <motion.div key={index} variants={fadeInUp}>

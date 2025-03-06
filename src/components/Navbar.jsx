@@ -45,7 +45,7 @@ const Navbar = () => {
           About
         </a>
         <a
-          href="#events"
+          href="#theme"
           className="text-white text-lg font-semibold tracking-wide hover:text-amber-400 transition duration-200 border-b border-transparent hover:border-amber-400 w-full text-center pb-2"
         >
           Theme

@@ -1,6 +1,7 @@
 import React from 'react';
 import img2 from '../images/4.png';
 import Navbar from './Navbar';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
@@ -32,9 +33,9 @@ const HeroSection = () => {
           <button className="bg-amber-900 text-white px-8 py-3 rounded text-lg font-bold hover:bg-amber-800 transition-all border-2 border-amber-900 shadow-[5px_5px_0px_0px_rgba(26,26,26,1)] f2">
             {"    BROCHURE    "}
           </button>
-          <button className="bg-transparent border-2 border-amber-900 text-amber-900 px-8 py-3 rounded text-lg font-bold hover:bg-amber-900 hover:text-white transition-all shadow-[5px_5px_0px_0px_rgba(120,53,15,1)] f2">
+          <Link to={'/events'} className="bg-transparent border-2 border-amber-900 text-amber-900 px-8 py-3 rounded text-lg font-bold hover:bg-amber-900 hover:text-white transition-all shadow-[5px_5px_0px_0px_rgba(120,53,15,1)] f2">
             VIEW EVENTS
-          </button>
+          </Link>
         </div>
       </div>
 

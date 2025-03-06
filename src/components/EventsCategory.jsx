@@ -8,13 +8,13 @@ const EventsCategory = () => {
       id: 'tech',
       title: "Tech Royale",
       description: "Where innovation meets elegance. Experience cutting-edge technology competitions in a setting worthy of Q Branch.",
-      icon: "🎮"
+      icon: "💻"
     },
     {
-      id: 'gaming',
+      id: 'esports',
       title: "Gaming Grand Prix",
       description: "High-stakes gaming tournaments where champions are crowned and legends are born.",
-      icon: "🎲"
+      icon: "🎮"
     },
     {
       id: 'hackathon',
@@ -38,7 +38,7 @@ const EventsCategory = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12">
+    <div className="max-w-6xl mx-auto px-4 py-12" id='event'>
       <motion.h2 
         className="title-font text-4xl text-gold mb-12 text-center gold-underline"
         {...fadeInUp}

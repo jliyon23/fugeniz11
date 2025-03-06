@@ -44,7 +44,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <div className="max-w-4xl mx-auto px-4 py-12" id='contact'>
       <motion.div {...fadeInUp}>
         <h2 className="title-font text-4xl text-gold mb-4 text-center gold-underline">
           Contact US
