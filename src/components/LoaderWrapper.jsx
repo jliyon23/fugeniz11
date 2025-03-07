@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-const VintageLoadingBar = ({ isLoading = true }) => {
-  // If not loading, don't render the component
+const VintageLoadingScreen = ({ isLoading = true }) => {
   if (!isLoading) return null;
 
   return (
@@ -11,60 +10,61 @@ const VintageLoadingBar = ({ isLoading = true }) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      style={{
-        backgroundImage: ""
-      }}
     >
-      <div className="w-64 flex flex-col items-center">
-        {/* Vintage loading text */}
-        <motion.div 
-          className="text-gold subtitle-font italic text-3xl mb-6 tracking-widest"
-          animate={{
-            textShadow: [
-              "0 0 5px rgba(218, 165, 32, 0.7)",
-              "0 0 15px rgba(218, 165, 32, 0.9)",
-              "0 0 5px rgba(218, 165, 32, 0.7)"
-            ]
-          }}
-          transition={{
-            duration: 1.5,
-            repeat: Infinity,
-            repeatType: "reverse"
-          }}
-        >
-          LOADING...
-        </motion.div>
-        
-        {/* Loading bar container */}
-        <div 
-          className="w-full h-1 bg-gray-800 rounded-full overflow-hidden"
-          style={{
-            boxShadow: "0 0 8px rgba(0, 0, 0, 0.8), inset 0 0 4px rgba(0, 0, 0, 0.8)",
-            border: "1px solid #333"
-          }}
-        >
-          {/* Animated loading bar */}
+      <div className="flex flex-col items-center">
+        {/* Main glowing text */}
+        <div className="relative">
+          {/* Glowing text */}
           <motion.div 
-            className="h-full bg-gradient-to-r from-amber-700 via-yellow-500 to-amber-700"
-            initial={{ width: "0%" }}
-            animate={{ width: "100%" }}
-            transition={{ 
+            className="f3 text-6xl md:text-8xl tracking-widest text-center"
+            style={{ color: '#ffd700' }}
+            animate={{
+              textShadow: [
+                "0 0 10px rgba(255, 215, 0, 0.8)", 
+                "0 0 20px rgba(255, 215, 0, 1)", 
+                "0 0 40px rgba(255, 165, 0, 0.8)", 
+                "0 0 20px rgba(255, 215, 0, 1)", 
+                "0 0 10px rgba(255, 215, 0, 0.8)"
+              ],
+              opacity: [0.7, 1, 0.7], // Pulsing effect
+              scale: [1, 1.08, 1]
+            }}
+            transition={{
               duration: 2,
               repeat: Infinity,
-              repeatType: "loop",
+              repeatType: "reverse",
               ease: "easeInOut"
             }}
-            style={{
-              boxShadow: "0 0 10px rgba(218, 165, 32, 0.7)"
+          >
+            FUGENIZ.11
+          </motion.div>
+          
+          {/* Reflection effect */}
+          <motion.div 
+            className="f3 text-5xl tracking-widest text-center mt-2 opacity-30"
+            style={{ 
+              color: '#ffd700',
+              transform: 'rotateX(180deg) scaleY(0.4)',
+              filter: 'blur(2px)',
             }}
-          />
+            animate={{
+              opacity: [0.2, 0.4, 0.2],
+              filter: [
+                'blur(2px) brightness(0.6)',
+                'blur(3px) brightness(0.8)',
+                'blur(2px) brightness(0.6)'
+              ]
+            }}
+            transition={{
+              duration: 2,
+              repeat: Infinity,
+              repeatType: "reverse",
+              ease: "easeInOut"
+            }}
+          >
+            FUGENIZ.11
+          </motion.div>
         </div>
-        
-        {/* Vintage decorative elements */}
-        {/* <div className="flex justify-between w-full mt-2">
-          <div className="w-2 h-2 rounded-full bg-yellow-500"></div>
-          <div className="w-2 h-2 rounded-full bg-yellow-500"></div>
-        </div> */}
       </div>
     </motion.div>
   );
@@ -75,7 +75,6 @@ const LoaderWrapper = ({ children }) => {
   const [loading, setLoading] = React.useState(true);
 
   useEffect(() => {
-    // Simulate loading time (replace with your actual loading logic)
     const timer = setTimeout(() => {
       setLoading(false);
     }, 4000);
@@ -83,12 +82,7 @@ const LoaderWrapper = ({ children }) => {
     return () => clearTimeout(timer);
   }, []);
 
-  return (
-    <>
-      <VintageLoadingBar isLoading={loading} />
-      {children}
-    </>
-  );
+  return loading ? <VintageLoadingScreen isLoading={loading} /> : children;
 };
 
 export default LoaderWrapper;

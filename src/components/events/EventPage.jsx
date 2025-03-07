@@ -67,11 +67,15 @@ const EventPage = () => {
     <div className='max-w-6xl mx-auto px-4 md:px-4 py-28'>
         <Navbar />
       <motion.h2
-        className='text-4xl subtitle-font text-gold mb-12 text-center gold-underline'
+        className='text-4xl subtitle-font text-gold mb-6 text-center gold-underline'
         {...fadeInUp}
       >
         EVENTS
       </motion.h2>
+
+      <Link to={`/`} className=" text-amber-200 text-sm  hover:text-amber-600 transition mb-18 subtitle-font">
+              {"<"} Back to home
+            </Link>
 
       <div className='grid grid-cols-1 sm:grid-cols-2  gap-6 space-y-8'>
           {events.map((event) => (

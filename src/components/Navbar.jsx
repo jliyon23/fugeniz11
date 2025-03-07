@@ -7,8 +7,11 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-4 left-4 z-50 flex items-center gap-5 bg-amber-900 opacity-80 backdrop-blur-lg p-3 rounded-md shadow-lg f2">
-      <img src={logo} alt="Logo" className="w-32 brightness-110 drop-shadow-md" />
-      
+      <Link to={'/'}>
+        <img src={logo} alt="Logo" className="w-32 brightness-110 drop-shadow-md" />
+      </Link>
+
+
       {/* Hamburger Icon */}
       <svg
         onClick={() => setOpen(!open)}
@@ -28,9 +31,8 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`absolute top-16 left-0 w-full flex flex-col items-center bg-zinc-900/95 border border-gold backdrop-blur-lg shadow-xl p-4 rounded-md transform transition-all duration-300 ${
-          open ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"
-        }`}
+        className={`absolute top-16 left-0 w-full flex flex-col items-center bg-zinc-900/95 border border-gold backdrop-blur-lg shadow-xl p-4 rounded-md transform transition-all duration-300 ${open ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"
+          }`}
       >
         <Link
           to="/"

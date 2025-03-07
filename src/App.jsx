@@ -4,12 +4,10 @@ import './App.css';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import FixedElements from './components/FixedElements';
-import NavBar from './components/Navbar';
-import EventsCategory from './components/EventsCategory';
-import EventsList from './components/EventsList';
 import EventListPage from './components/events/EventsListPage';
 import EventDetailsPage from './components/events/EventDetails';
 import EventPage from './components/events/EventPage';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   useEffect(() => {
@@ -20,25 +18,11 @@ function App() {
         title.style.transition = "all 1s ease";
       }
     }, 1000);
-
-   
-    
-    // Smooth scroll for any anchor links
-    // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    //   anchor.addEventListener('click', function (e) {
-    //     e.preventDefault();
-    //     const href = this.getAttribute('href');
-    //     if (href) {
-    //       document.querySelector(href).scrollIntoView({
-    //         behavior: 'smooth'
-    //       });
-    //     }
-    //   });
-    // });
   }, []);
 
   return (
-    <Router>
+    <>
+      <ScrollToTop />
       <div className="app">
         <FixedElements />
         
@@ -57,7 +41,7 @@ function App() {
           </Routes>
         </div>
       </div>
-    </Router>
+    </>
   );
 }
 
