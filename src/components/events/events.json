@@ -48,7 +48,7 @@
             "id": 1,
             "name": "Valorant Tournament",
             "description": "5v5 team-based tactical FPS tournament.",
-            "date": "2025-06-10",
+            "date": "MARCH 13, 14",
             "time": "4:00 PM",
             "location": "Gaming Arena",
             "image": "/images/events/mrfugeniz.jpg",
@@ -56,14 +56,45 @@
         },
         {
             "id": 2,
-            "name": "FIFA 24 Championship",
-            "description": "Compete in FIFA 24 and become the champion.",
-            "date": "2025-06-11",
+            "name": "E Football Tournament",
+            "description": "Compete in E Football and become the champion.",
+            "date": "MARCH 13, 14",
+            "time": "2:00 PM",
+            "location": "Game Zone",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/esports-fifa"
+        },
+        {
+            "id": 3,
+            "name": "Mini Militia Tournament",
+            "description": "Compete in Mini Militia and become the champion.",
+            "date": "MARCH 13, 14",
+            "time": "2:00 PM",
+            "location": "Game Zone",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/esports-fifa"
+        },
+        {
+            "id": 4,
+            "name": "Clash of Clans",
+            "description": "Compete in Mini Militia and become the champion.",
+            "date": "MARCH 13, 14",
+            "time": "2:00 PM",
+            "location": "Game Zone",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/esports-fifa"
+        },
+        {
+            "id": 5,
+            "name": "PUBG Tournament",
+            "description": "Compete in Mini Militia and become the champion.",
+            "date": "MARCH 13, 14",
             "time": "2:00 PM",
             "location": "Game Zone",
             "image": "/images/events/mrfugeniz.jpg",
             "link": "https://forms.gle/esports-fifa"
         }
+        
     ],
     "competitions": [
         {
