@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
@@ -24,17 +24,17 @@ function App() {
    
     
     // Smooth scroll for any anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const href = this.getAttribute('href');
-        if (href) {
-          document.querySelector(href).scrollIntoView({
-            behavior: 'smooth'
-          });
-        }
-      });
-    });
+    // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    //   anchor.addEventListener('click', function (e) {
+    //     e.preventDefault();
+    //     const href = this.getAttribute('href');
+    //     if (href) {
+    //       document.querySelector(href).scrollIntoView({
+    //         behavior: 'smooth'
+    //       });
+    //     }
+    //   });
+    // });
   }, []);
 
   return (
