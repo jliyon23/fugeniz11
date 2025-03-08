@@ -2,7 +2,7 @@
     "workshop": [
         {
             "id": 1,
-            "name": "AI & Machine Learning",
+            "name": "EV workshop",
             "description": "Hands-on workshop on AI and ML fundamentals.",
             "date": "2025-06-01",
             "time": "10:00 AM",
@@ -24,23 +24,33 @@
     "hackathon": [
         {
             "id": 1,
-            "name": "Cyber Security Challenge",
-            "description": "24-hour ethical hacking competition.",
-            "date": "2025-06-05",
-            "time": "9:00 AM",
-            "location": "Main Auditorium",
-            "image": "/images/events/mrfugeniz.jpg",
+            "name": "Fugen Hack",
+            "description": "build groundbreaking solutions in an electrifying 20-hour tech marathon.",
+            "date": "MARCH 13, 14",
+            "time": "1:30PM - 11:00AM",
+            "location": "DLC Lab, SNGCE",
+            "image": "/images/events/hack/fughack.png",
             "link": "https://forms.gle/hackathon-cyber"
         },
         {
             "id": 2,
-            "name": "AI Hackathon",
-            "description": "Build AI-driven applications in a 48-hour hackathon.",
-            "date": "2025-06-06",
+            "name": "Idea X",
+            "description": "Unleash your creativity and innovation in our Idea pitch event.",
+            "date": "MARCH 14",
             "time": "10:00 AM",
-            "location": "Innovation Hub",
-            "image": "/images/events/mrfugeniz.jpg",
+            "location": "not specified",
+            "image": "/images/events/hack/ideax.png",
             "link": "https://forms.gle/hackathon-ai"
+        },
+        {
+            "id": 3,
+            "name": "Mu Hunt",
+            "description": "Mu Hunt is an individual scavenger hunt where cryptography, encoding, and problem-solving come together. Decode hidden messages, crack mind-bending puzzles, and race against time to claim victory!.",
+            "date": "MARCH 14",
+            "time": "11:00am - 1:00pm",
+            "location": "not specified",
+            "image": "/images/events/hack/mu.png",
+            "link": "https://forms.gle/xco27w5U1JYbXZSA7"
         }
     ],
     "esports": [
@@ -51,8 +61,8 @@
             "date": "MARCH 13, 14",
             "time": "4:00 PM",
             "location": "Gaming Arena",
-            "image": "/images/events/mrfugeniz.jpg",
-            "link": "https://forms.gle/esports-valorant"
+            "image": "/images/events/esports/valo.png",
+            "link": "https://forms.gle/6tKGYv4kukN6BwKb8 "
         },
         {
             "id": 2,
@@ -61,8 +71,8 @@
             "date": "MARCH 13, 14",
             "time": "2:00 PM",
             "location": "Game Zone",
-            "image": "/images/events/mrfugeniz.jpg",
-            "link": "https://forms.gle/esports-fifa"
+            "image": "/images/events/esports/efootball.png",
+            "link": "https://forms.gle/UiASCedKXFy7XfeD6"
         },
         {
             "id": 3,
@@ -71,8 +81,8 @@
             "date": "MARCH 13, 14",
             "time": "2:00 PM",
             "location": "Game Zone",
-            "image": "/images/events/mrfugeniz.jpg",
-            "link": "https://forms.gle/esports-fifa"
+            "image": "/images/events/esports/mini.png",
+            "link": "https://forms.gle/1Xf53edyd3q5VDfe6 "
         },
         {
             "id": 4,
@@ -81,8 +91,8 @@
             "date": "MARCH 13, 14",
             "time": "2:00 PM",
             "location": "Game Zone",
-            "image": "/images/events/mrfugeniz.jpg",
-            "link": "https://forms.gle/esports-fifa"
+            "image": "/images/events/esports/coc.png",
+            "link": "https://forms.gle/9egy8K2Kymuxw5Hf7"
         },
         {
             "id": 5,
@@ -91,30 +101,30 @@
             "date": "MARCH 13, 14",
             "time": "2:00 PM",
             "location": "Game Zone",
-            "image": "/images/events/mrfugeniz.jpg",
-            "link": "https://forms.gle/esports-fifa"
+            "image": "/images/events/esports/pubg.png",
+            "link": "https://forms.gle/DcYTxsyiXE9Nv9ek6"
         }
         
     ],
     "competitions": [
         {
             "id": 1,
-            "name": "Coding Battle",
-            "description": "Competitive programming contest with exciting challenges.",
-            "date": "2025-06-15",
+            "name": "Thunder Arm",
+            "description": "The Ultimate Arm Wrestling Competition.",
+            "date": "MARCH 13",
             "time": "10:00 AM",
-            "location": "Computer Lab",
-            "image": "/images/events/mrfugeniz.jpg",
+            "location": "not specified",
+            "image": "/images/events/competition/arm.jpg",
             "link": "https://forms.gle/competition-coding"
         },
         {
             "id": 2,
-            "name": "Tech Quiz",
-            "description": "Test your tech knowledge in this rapid-fire quiz competition.",
-            "date": "2025-06-16",
+            "name": "Chess competition",
+            "description": "The Ultimate Chess Competition",
+            "date": "MARCH 14",
             "time": "3:00 PM",
             "location": "Seminar Hall",
-            "image": "/images/events/mrfugeniz.jpg",
+            "image": "/images/events/competition/chess.png",
             "link": "https://forms.gle/competition-quiz"
         }
     ],

@@ -50,9 +50,9 @@ const EventDetailsPage = () => {
             <img src={event.image} alt={event.name} className="w-96  object-cover" />
           </div>
 
-          <div className="p-6 subtitle-font">
+          <div className="p-6 subtitle-font max-w-md">
 
-            <p className="text-gray-300 mb-4">{event.description}</p>
+            <p className="text-gray-300 mb-4 text-sm">{event.description}</p>
             <p className="text-sm text-gray-400">📅 {event.date} | ⏰ {event.time}</p>
             <p className="text-sm text-gray-400">📍 {event.location}</p>
 
