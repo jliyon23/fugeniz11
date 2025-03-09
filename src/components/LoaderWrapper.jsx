@@ -40,7 +40,7 @@ const VintageLoadingScreen = ({ isLoading = true }) => {
           </motion.div>
           
           {/* Reflection effect */}
-          <motion.div 
+          {/* <motion.div 
             className="f3 text-5xl tracking-widest text-center mt-2 opacity-30"
             style={{ 
               color: '#ffd700',
@@ -63,7 +63,7 @@ const VintageLoadingScreen = ({ isLoading = true }) => {
             }}
           >
             FUGENIZ.11
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </motion.div>
