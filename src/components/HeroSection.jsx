@@ -2,6 +2,7 @@ import React from 'react';
 import img2 from '../images/4.png';
 import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
+import sngLogo from '../images/logo/sng.png';
 
 const HeroSection = () => {
   return (
@@ -11,6 +12,10 @@ const HeroSection = () => {
 
       {/* Main content container */}
       <div className="relative z-10 w-full max-w-xl mx-auto text-center fade-in">
+        <div className='flex justify-center mb-4'>
+        <img src={sngLogo} className='w-32' alt="" />
+        </div>
+       
         <div className="mb-2 opacity-80 subtitle-font text-gray-900 font-bold">INTER COLLEGE TECH FEST</div>
 
         <h1 className="f1 text-[3.5rem] text-[#242424] md:text-8xl">

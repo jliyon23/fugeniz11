@@ -6,7 +6,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-4 left-4 z-50 flex items-center gap-5 bg-amber-900 opacity-80 backdrop-blur-lg p-3 rounded-md shadow-lg f2">
+    <nav className="fixed top-4 left-4 z-50 flex items-center gap-5 bg-[#ffa408] opacity-80 backdrop-blur-lg p-3 rounded-md shadow-lg f2">
       <Link to={'/'}>
         <img src={logo} alt="Logo" className="w-32 brightness-110 drop-shadow-md" />
       </Link>

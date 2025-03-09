@@ -1,5 +1,5 @@
 {
-    "workshop": [
+    "workshops": [
         {
             "id": 1,
             "name": "EV workshop",
@@ -7,18 +7,68 @@
             "date": "2025-06-01",
             "time": "10:00 AM",
             "location": "Lab 1",
-            "image": "src/images/events/workshop-ai.jpg",
-            "link": "https://forms.gle/workshop-ai"
+            "image": "",
+            "link": ""
         },
         {
             "id": 2,
-            "name": "Blockchain & Web3",
-            "description": "Introduction to blockchain, smart contracts, and Web3 development.",
-            "date": "2025-06-02",
-            "time": "11:00 AM",
-            "location": "Hall B",
-            "image": "src/images/events/workshop-blockchain.jpg",
-            "link": "https://forms.gle/workshop-blockchain"
+            "name": "PCB DESIGNING WORKSHOP",
+            "description": "",
+            "date": "",
+            "time": "",
+            "location": "",
+            "image": "",
+            "link": "https://forms.gle/fm2zQHyRk6JNXP828"
+        },
+        {
+            "id": 3,
+            "name": "Excel Workshop",
+            "description": "",
+            "date": "",
+            "time": "",
+            "location": "",
+            "image": "",
+            "link": "https://forms.gle/UM1626YnjsjZbAhN8"
+        },
+        {
+            "id": 4,
+            "name": "Rhino Workshop",
+            "description": "",
+            "date": "",
+            "time": "",
+            "location": "",
+            "image": "",
+            "link": "https://forms.gle/uJJvcDXSPRfaSRXr9"
+        },
+        {
+            "id": 5,
+            "name": "3D printing (IEEE)",
+            "description": "fundamentals of 3D printing",
+            "date": "MARCH 13",
+            "time": "1:30pm to 4:30pm",
+            "location": "ECE systemlabs",
+            "image": "",
+            "link": ""
+        },
+        {
+            "id": 6,
+            "name": "Arduino Workshop(IEEE)",
+            "description": "Basics of Arduino",
+            "date": "MARCH 14",
+            "time": "10am to 1:00pm",
+            "location": "ECE systemlabs",
+            "image": "",
+            "link": ""
+        },
+        {
+            "id": 7,
+            "name": "Cybersecurity Workshop(IEEE)",
+            "description": "How to get placed in a cyber profile job",
+            "date": "MARCH 14",
+            "time": "1:30pm to 4:30pm",
+            "location": "E218",
+            "image": "",
+            "link": ""
         }
     ],
     "hackathon": [
@@ -51,6 +101,16 @@
             "location": "not specified",
             "image": "/images/events/hack/mu.png",
             "link": "https://forms.gle/xco27w5U1JYbXZSA7"
+        },
+        {
+            "id": 4,
+            "name": "Makethon(IEEE)",
+            "description": ".",
+            "date": "MARCH 13",
+            "time": "1:30pm - 4:30pm",
+            "location": "E114",
+            "image": "",
+            "link": ""
         }
     ],
     "esports": [
@@ -104,7 +164,6 @@
             "image": "/images/events/esports/pubg.png",
             "link": "https://forms.gle/DcYTxsyiXE9Nv9ek6"
         }
-        
     ],
     "competitions": [
         {
@@ -115,7 +174,7 @@
             "time": "10:00 AM",
             "location": "not specified",
             "image": "/images/events/competition/arm.jpg",
-            "link": "https://forms.gle/competition-coding"
+            "link": ""
         },
         {
             "id": 2,
@@ -125,73 +184,235 @@
             "time": "3:00 PM",
             "location": "Seminar Hall",
             "image": "/images/events/competition/chess.png",
-            "link": "https://forms.gle/competition-quiz"
+            "link": ""
+        },
+        {
+            "id": 3,
+            "name": "Treasure Hunt (IEEE)",
+            "description": "The Ultimate Chess Competition",
+            "date": "MARCH 14",
+            "time": "3:00 PM",
+            "location": "Seminar Hall",
+            "image": "",
+            "link": ""
+        },
+        {
+            "id": 4,
+            "name": "Marine Maze",
+            "description": "Participants are put into real life marine based maze where they solve each room to advance past the puzzle. The first one to solve gets a prize money",
+            "date": "MARCH 13, 14",
+            "time": "10am to 5pm",
+            "location": "W241",
+            "image": "",
+            "link": "https://forms.gle/CLHBfHU5gai1AiyT7"
+        },
+        {
+            "id": 5,
+            "name": "Green Voyage - Make A Vessel out of waste",
+            "description": "",
+            "date": "",
+            "time": "",
+            "location": "",
+            "image": "",
+            "link": "https://forms.gle/Z5ms7tMcYLD8Ti8K6"
+        },
+        {
+            "id": 6,
+            "name": "Eco-Print",
+            "description": "",
+            "date": "",
+            "time": "",
+            "location": "",
+            "image": "",
+            "link": "https://forms.gle/uCVZc9JkywWqxyud9"
+        },
+        {
+            "id": 7,
+            "name": "Debugging(IEEE)",
+            "description": "",
+            "date": "MARCH 13",
+            "time": "10am to 1:30pm",
+            "location": "Paramlab",
+            "image": "",
+            "link": ""
+        },
+        {
+            "id": 8,
+            "name": "Break the Code (IEEE)",
+            "description": "",
+            "date": "MARCH 14",
+            "time": "11am to 1pm",
+            "location": "Adithya Lab",
+            "image": "",
+            "link": ""
         }
     ],
     "funzone": [
         {
             "id": 1,
-            "name": "Treasure Hunt",
+            "name": "Treasure Hunt(IEEE)",
             "description": "Solve clues and complete challenges to find the hidden treasure.",
-            "date": "2025-06-20",
+            "date": "MARCH 13",
             "time": "1:00 PM",
             "location": "Campus Grounds",
-            "image": "/images/events/mrfugeniz.jpg",
-            "link": "https://forms.gle/funzone-treasure"
+            "image": "",
+            "link": ""
         },
         {
             "id": 2,
-            "name": "Minute to Win It",
-            "description": "Fun challenges to complete in under a minute.",
-            "date": "2025-06-21",
-            "time": "2:00 PM",
-            "location": "Activity Center",
-            "image": "/images/events/mrfugeniz.jpg",
-            "link": "https://forms.gle/funzone-minute"
+            "name": "VORTEX VR",
+            "description": "",
+            "date": "",
+            "time": "",
+            "location": "",
+            "image": "/images/events/funzone/vr.jpg",
+            "link": "https://forms.gle/1hCTzGF5aPBC56KQ8"
+        },
+        {
+            "id": 3,
+            "name": "Fun Games (IEEE)",
+            "description": "",
+            "date": "MARCH 13",
+            "time": "9:30am to 4:30pm",
+            "location": "College premises",
+            "image": "",
+            "link": ""
         }
     ],
     "cultural": [
         {
             "id": 1,
-            "name": "Dance Battle",
+            "name": "GROOVE X",
             "description": "Showcase your best moves in a high-energy dance battle.",
-            "date": "2025-06-25",
-            "time": "5:00 PM",
+            "date": "MARCH 14",
+            "time": "10:00 AM",
             "location": "Cultural Stage",
-            "image": "/images/events/mrfugeniz.jpg",
-            "link": "https://forms.gle/cultural-dance"
+            "image": "/images/events/cultural/dance.png",
+            "link": ""
         },
         {
             "id": 2,
-            "name": "Music Fest",
-            "description": "Live music performances by talented artists.",
-            "date": "2025-06-26",
+            "name": "ROULETTA",
+            "description": "Showcase your fashion sense and creativity.",
+            "date": "MARCH 14",
             "time": "6:00 PM",
             "location": "Main Auditorium",
-            "image": "/images/events/mrfugeniz.jpg",
-            "link": "https://forms.gle/cultural-music"
+            "image": "/images/events/cultural/fashion.png",
+            "link": ""
+        },
+        {
+            "id": 3,
+            "name": "MR FUGENIZ",
+            "description": "Body Show.",
+            "date": "MARCH 13",
+            "time": "10:00 AM",
+            "location": "not specified",
+            "image": "/images/events/cultural/mrfug.png",
+            "link": ""
         }
     ],
     "discussions": [
         {
             "id": 1,
-            "name": "Tech Trends 2025",
+            "name": "Stock Marketing (IEEE)",
             "description": "Panel discussion on upcoming technology trends.",
-            "date": "2025-06-30",
-            "time": "11:00 AM",
-            "location": "Conference Hall",
-            "image": "/images/events/mrfugeniz.jpg",
-            "link": "https://forms.gle/discussion-tech"
+            "date": "MARCH 13",
+            "time": "10:30am - 1:00pm",
+            "location": "E218",
+            "image": "",
+            "link": ""
+        }
+    ],
+    "ieee": [
+        {
+            "id": 1,
+            "name": "Stock Marketing (IEEE)",
+            "description": "Panel discussion on upcoming technology trends.",
+            "date": "MARCH 13",
+            "time": "10:30am - 1:00pm",
+            "location": "E218",
+            "image": "",
+            "link": ""
         },
         {
             "id": 2,
-            "name": "Entrepreneurship Talk",
-            "description": "Learn from successful entrepreneurs and startup founders.",
-            "date": "2025-07-01",
-            "time": "1:00 PM",
-            "location": "Innovation Hub",
-            "image": "/images/events/mrfugeniz.jpg",
-            "link": "https://forms.gle/discussion-entrepreneur"
+            "name": "Treasure Hunt (IEEE)",
+            "description": "The Ultimate Chess Competition",
+            "date": "MARCH 14",
+            "time": "3:00 PM",
+            "location": "Seminar Hall",
+            "image": "",
+            "link": ""
+        },
+        {
+            "id": 3,
+            "name": "Fun Games (IEEE)",
+            "description": "",
+            "date": "MARCH 13",
+            "time": "9:30am to 4:30pm",
+            "location": "College premises",
+            "image": "",
+            "link": ""
+        },
+        {
+            "id": 4,
+            "name": "Debugging(IEEE)",
+            "description": "",
+            "date": "MARCH 13",
+            "time": "10am to 1:30pm",
+            "location": "Paramlab",
+            "image": "",
+            "link": ""
+        },
+        {
+            "id": 5,
+            "name": "Break the Code (IEEE)",
+            "description": "",
+            "date": "MARCH 14",
+            "time": "11am to 1pm",
+            "location": "Adithya Lab",
+            "image": "",
+            "link": ""
+        },
+        {
+            "id": 6,
+            "name": "Makethon(IEEE)",
+            "description": ".",
+            "date": "MARCH 13",
+            "time": "1:30pm - 4:30pm",
+            "location": "E114",
+            "image": "",
+            "link": ""
+        },
+        {
+            "id": 7,
+            "name": "3D printing (IEEE)",
+            "description": "fundamentals of 3D printing",
+            "date": "MARCH 13",
+            "time": "1:30pm to 4:30pm",
+            "location": "ECE systemlabs",
+            "image": "",
+            "link": ""
+        },
+        {
+            "id": 8,
+            "name": "Arduino Workshop(IEEE)",
+            "description": "Basics of Arduino",
+            "date": "MARCH 14",
+            "time": "10am to 1:00pm",
+            "location": "ECE systemlabs",
+            "image": "",
+            "link": ""
+        },
+        {
+            "id": 9,
+            "name": "Cybersecurity Workshop(IEEE)",
+            "description": "How to get placed in a cyber profile job",
+            "date": "MARCH 14",
+            "time": "1:30pm to 4:30pm",
+            "location": "E218",
+            "image": "",
+            "link": ""
         }
     ]
 }

@@ -1,0 +1,217 @@
+{
+    "workshop": [
+        {
+            "id": 1,
+            "name": "EV workshop",
+            "description": "Hands-on workshop on AI and ML fundamentals.",
+            "date": "2025-06-01",
+            "time": "10:00 AM",
+            "location": "Lab 1",
+            "image": "src/images/events/workshop-ai.jpg",
+            "link": "https://forms.gle/workshop-ai"
+        },
+        {
+            "id": 2,
+            "name": "Blockchain & Web3",
+            "description": "Introduction to blockchain, smart contracts, and Web3 development.",
+            "date": "2025-06-02",
+            "time": "11:00 AM",
+            "location": "Hall B",
+            "image": "src/images/events/workshop-blockchain.jpg",
+            "link": "https://forms.gle/workshop-blockchain"
+        }
+    ],
+    "hackathon": [
+        {
+            "id": 1,
+            "name": "Fugen Hack",
+            "description": "build groundbreaking solutions in an electrifying 20-hour tech marathon.",
+            "date": "MARCH 13, 14",
+            "time": "1:30PM - 11:00AM",
+            "location": "DLC Lab, SNGCE",
+            "image": "/images/events/hack/fughack.png",
+            "link": "https://forms.gle/hackathon-cyber"
+        },
+        {
+            "id": 2,
+            "name": "Idea X",
+            "description": "Unleash your creativity and innovation in our Idea pitch event.",
+            "date": "MARCH 14",
+            "time": "10:00 AM",
+            "location": "not specified",
+            "image": "/images/events/hack/ideax.png",
+            "link": "https://forms.gle/hackathon-ai"
+        },
+        {
+            "id": 3,
+            "name": "Mu Hunt",
+            "description": "Mu Hunt is an individual scavenger hunt where cryptography, encoding, and problem-solving come together. Decode hidden messages, crack mind-bending puzzles, and race against time to claim victory!.",
+            "date": "MARCH 14",
+            "time": "11:00am - 1:00pm",
+            "location": "not specified",
+            "image": "/images/events/hack/mu.png",
+            "link": "https://forms.gle/xco27w5U1JYbXZSA7"
+        },
+        {
+            "id": 4,
+            "name": "Makethon(IEEE)",
+            "description": ".",
+            "date": "MARCH 13",
+            "time": "1:30pm - 4:30pm",
+            "location": "E114",
+            "image": "/images/events/hack/mu.png",
+            "link": "/"
+        }
+    ],
+    "esports": [
+        {
+            "id": 1,
+            "name": "Valorant Tournament",
+            "description": "5v5 team-based tactical FPS tournament.",
+            "date": "MARCH 13, 14",
+            "time": "4:00 PM",
+            "location": "Gaming Arena",
+            "image": "/images/events/esports/valo.png",
+            "link": "https://forms.gle/6tKGYv4kukN6BwKb8 "
+        },
+        {
+            "id": 2,
+            "name": "E Football Tournament",
+            "description": "Compete in E Football and become the champion.",
+            "date": "MARCH 13, 14",
+            "time": "2:00 PM",
+            "location": "Game Zone",
+            "image": "/images/events/esports/efootball.png",
+            "link": "https://forms.gle/UiASCedKXFy7XfeD6"
+        },
+        {
+            "id": 3,
+            "name": "Mini Militia Tournament",
+            "description": "Compete in Mini Militia and become the champion.",
+            "date": "MARCH 13, 14",
+            "time": "2:00 PM",
+            "location": "Game Zone",
+            "image": "/images/events/esports/mini.png",
+            "link": "https://forms.gle/1Xf53edyd3q5VDfe6 "
+        },
+        {
+            "id": 4,
+            "name": "Clash of Clans",
+            "description": "Compete in Mini Militia and become the champion.",
+            "date": "MARCH 13, 14",
+            "time": "2:00 PM",
+            "location": "Game Zone",
+            "image": "/images/events/esports/coc.png",
+            "link": "https://forms.gle/9egy8K2Kymuxw5Hf7"
+        },
+        {
+            "id": 5,
+            "name": "PUBG Tournament",
+            "description": "Compete in Mini Militia and become the champion.",
+            "date": "MARCH 13, 14",
+            "time": "2:00 PM",
+            "location": "Game Zone",
+            "image": "/images/events/esports/pubg.png",
+            "link": "https://forms.gle/DcYTxsyiXE9Nv9ek6"
+        }
+        
+    ],
+    "competitions": [
+        {
+            "id": 1,
+            "name": "Thunder Arm",
+            "description": "The Ultimate Arm Wrestling Competition.",
+            "date": "MARCH 13",
+            "time": "10:00 AM",
+            "location": "not specified",
+            "image": "/images/events/competition/arm.jpg",
+            "link": "https://forms.gle/competition-coding"
+        },
+        {
+            "id": 2,
+            "name": "Chess competition",
+            "description": "The Ultimate Chess Competition",
+            "date": "MARCH 14",
+            "time": "3:00 PM",
+            "location": "Seminar Hall",
+            "image": "/images/events/competition/chess.png",
+            "link": "https://forms.gle/competition-quiz"
+        },
+        {
+            "id": 3,
+            "name": "Treasure Hunt (IEEE)",
+            "description": "The Ultimate Chess Competition",
+            "date": "MARCH 14",
+            "time": "3:00 PM",
+            "location": "Seminar Hall",
+            "image": "/images/events/competition/chess.png",
+            "link": "https://forms.gle/competition-quiz"
+        }
+    ],
+    "funzone": [
+        {
+            "id": 1,
+            "name": "Treasure Hunt",
+            "description": "Solve clues and complete challenges to find the hidden treasure.",
+            "date": "2025-06-20",
+            "time": "1:00 PM",
+            "location": "Campus Grounds",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/funzone-treasure"
+        },
+        {
+            "id": 2,
+            "name": "Minute to Win It",
+            "description": "Fun challenges to complete in under a minute.",
+            "date": "2025-06-21",
+            "time": "2:00 PM",
+            "location": "Activity Center",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/funzone-minute"
+        }
+    ],
+    "cultural": [
+        {
+            "id": 1,
+            "name": "Dance Battle",
+            "description": "Showcase your best moves in a high-energy dance battle.",
+            "date": "2025-06-25",
+            "time": "5:00 PM",
+            "location": "Cultural Stage",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/cultural-dance"
+        },
+        {
+            "id": 2,
+            "name": "Music Fest",
+            "description": "Live music performances by talented artists.",
+            "date": "2025-06-26",
+            "time": "6:00 PM",
+            "location": "Main Auditorium",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/cultural-music"
+        }
+    ],
+    "discussions": [
+        {
+            "id": 1,
+            "name": "Stock Marketing (IEEE)",
+            "description": "Panel discussion on upcoming technology trends.",
+            "date": "MARCH 13",
+            "time": "10:30am - 1:00pm",
+            "location": "E218",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/discussion-tech"
+        },
+        {
+            "id": 2,
+            "name": "Entrepreneurship Talk",
+            "description": "Learn from successful entrepreneurs and startup founders.",
+            "date": "2025-07-01",
+            "time": "1:00 PM",
+            "location": "Innovation Hub",
+            "image": "/images/events/mrfugeniz.jpg",
+            "link": "https://forms.gle/discussion-entrepreneur"
+        }
+    ]
+}
