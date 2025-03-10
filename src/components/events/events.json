@@ -47,7 +47,7 @@
             "date": "MARCH 13",
             "time": "1:30pm to 4:30pm",
             "location": "ECE systemlabs",
-            "image": "",
+            "image": "/images/events/ieee/3dpri.jpg",
             "link": ""
         },
         {
@@ -57,17 +57,7 @@
             "date": "MARCH 14",
             "time": "10am to 1:00pm",
             "location": "ECE systemlabs",
-            "image": "",
-            "link": ""
-        },
-        {
-            "id": 7,
-            "name": "Cybersecurity Workshop(IEEE)",
-            "description": "How to get placed in a cyber profile job",
-            "date": "MARCH 14",
-            "time": "1:30pm to 4:30pm",
-            "location": "E218",
-            "image": "",
+            "image": "/images/events/ieee/arduino.JPG",
             "link": ""
         }
     ],
@@ -109,7 +99,7 @@
             "date": "MARCH 13",
             "time": "1:30pm - 4:30pm",
             "location": "E114",
-            "image": "",
+            "image": "/images/events/ieee/makeathon.JPG",
             "link": ""
         }
     ],
@@ -193,7 +183,7 @@
             "date": "MARCH 14",
             "time": "3:00 PM",
             "location": "Seminar Hall",
-            "image": "",
+            "image": "/images/events/ieee/treasure.png",
             "link": ""
         },
         {
@@ -233,7 +223,7 @@
             "date": "MARCH 13",
             "time": "10am to 1:30pm",
             "location": "Paramlab",
-            "image": "",
+            "image": "/images/events/ieee/debug.JPG",
             "link": ""
         },
         {
@@ -243,7 +233,7 @@
             "date": "MARCH 14",
             "time": "11am to 1pm",
             "location": "Adithya Lab",
-            "image": "",
+            "image": "/images/events/ieee/breakthecode.JPG",
             "link": ""
         }
     ],
@@ -255,7 +245,7 @@
             "date": "MARCH 13",
             "time": "1:00 PM",
             "location": "Campus Grounds",
-            "image": "",
+            "image": "/images/events/ieee/treasure.png",
             "link": ""
         },
         {
@@ -275,7 +265,7 @@
             "date": "MARCH 13",
             "time": "9:30am to 4:30pm",
             "location": "College premises",
-            "image": "",
+            "image": "/images/events/ieee/fun.png",
             "link": ""
         }
     ],
@@ -319,7 +309,7 @@
             "date": "MARCH 13",
             "time": "10:30am - 1:00pm",
             "location": "E218",
-            "image": "",
+            "image": "/images/events/ieee/stock.JPG",
             "link": ""
         }
     ],
@@ -331,7 +321,7 @@
             "date": "MARCH 13",
             "time": "10:30am - 1:00pm",
             "location": "E218",
-            "image": "",
+            "image": "/images/events/ieee/stock.JPG",
             "link": ""
         },
         {
@@ -341,7 +331,7 @@
             "date": "MARCH 14",
             "time": "3:00 PM",
             "location": "Seminar Hall",
-            "image": "",
+            "image": "/images/events/ieee/treasure.png",
             "link": ""
         },
         {
@@ -351,7 +341,7 @@
             "date": "MARCH 13",
             "time": "9:30am to 4:30pm",
             "location": "College premises",
-            "image": "",
+            "image": "/images/events/ieee/fun.png",
             "link": ""
         },
         {
@@ -361,7 +351,7 @@
             "date": "MARCH 13",
             "time": "10am to 1:30pm",
             "location": "Paramlab",
-            "image": "",
+            "image": "/images/events/ieee/debug.JPG",
             "link": ""
         },
         {
@@ -371,17 +361,17 @@
             "date": "MARCH 14",
             "time": "11am to 1pm",
             "location": "Adithya Lab",
-            "image": "",
+            "image": "/images/events/ieee/breakthecode.JPG",
             "link": ""
         },
         {
             "id": 6,
-            "name": "Makethon(IEEE)",
+            "name": "Makeathon(IEEE)",
             "description": ".",
             "date": "MARCH 13",
             "time": "1:30pm - 4:30pm",
             "location": "E114",
-            "image": "",
+            "image": "/images/events/ieee/makeathon.JPG",
             "link": ""
         },
         {
@@ -391,7 +381,7 @@
             "date": "MARCH 13",
             "time": "1:30pm to 4:30pm",
             "location": "ECE systemlabs",
-            "image": "",
+            "image": "/images/events/ieee/3dpri.jpg",
             "link": ""
         },
         {
@@ -401,17 +391,7 @@
             "date": "MARCH 14",
             "time": "10am to 1:00pm",
             "location": "ECE systemlabs",
-            "image": "",
-            "link": ""
-        },
-        {
-            "id": 9,
-            "name": "Cybersecurity Workshop(IEEE)",
-            "description": "How to get placed in a cyber profile job",
-            "date": "MARCH 14",
-            "time": "1:30pm to 4:30pm",
-            "location": "E218",
-            "image": "",
+            "image": "/images/events/ieee/arduino.JPG",
             "link": ""
         }
     ]
