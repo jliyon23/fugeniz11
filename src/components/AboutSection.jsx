@@ -54,7 +54,7 @@ const AboutSection = () => {
       
       <div  className="body-font text-lg text-gray-300 space-y-6 text-center">
         <motion.p {...fadeInUp}>
-        Fugeniz.11 is an electrifying tech-centric college fest that celebrates innovation and imagination. It offers hackathons, coding marathons, and workshops, fostering a culture of innovation. Participants are encouraged to push the boundaries of what's possible and bridge the gap between theory and practice through hands-on experiences. Gamers can enjoy thrilling tournaments in the gaming arena, catering to casual gamers and esports enthusiasts alike. FugenizX invites everyone to be part of the technological revolution, daring to dream, innovate, and transcend boundaries, shaping the future today.
+        Fugeniz.11 is an electrifying tech-centric college fest that celebrates innovation and imagination. It offers hackathons, coding marathons, and workshops, fostering a culture of innovation. Participants are encouraged to push the boundaries of what's possible and bridge the gap between theory and practice through hands-on experiences. Gamers can enjoy thrilling tournaments in the gaming arena, catering to casual gamers and esports enthusiasts alike. Fugeniz.11 invites everyone to be part of the technological revolution, daring to dream, innovate, and transcend boundaries, shaping the future today.
         </motion.p>
         
         
@@ -73,16 +73,21 @@ const AboutSection = () => {
       </motion.h2>
 
         <div  className="">
-          <p  className="italic text-gold text-xl text-center">"Green Technology Sustaining Innovation:
-          Highlight Sustainable and Eco-friendly Technology"</p>
-          <p className='mt-3 text-center'>Sustainable and eco-friendly technology plays a pivotal role in enhancing the significance of Fugeniz X Tech Fest. It not only aligns with the fest's core values of innovation and progress but also underscores the importance of responsible technological advancement. By showcasing cutting-edge green tech solutions, the fest empowers attendees to appreciate the potential of environmentally friendly innovations. These technologies offer solutions to pressing global challenges, from renewable energy to waste reduction, fostering a sense of responsibility towards our planet. In essence, they transform the tech fest into a catalyst for both learning and action, emphasizing the crucial role sustainability plays in our future.</p>
+          <p  className="italic text-gold text-xl text-center">"The Grand Syndicate – Where Tech Meets the Underworld of Innovation"</p>
+          <p className='mt-3 text-center'>Step into the golden age of the Retro Vintage Casino Mafia Era, where secrecy, power, and strategy define the game. Fugeniz.12 transforms into an underground world of innovation, where technology and mystery collide in a high-stakes battle of intellect and skill.
+
+Much like a well-planned heist or a strategic poker move, technological advancements require precision, risk-taking, and an eye for the future. From AI masterminds to cybersecurity enforcers, the fest unites the brightest minds in a thrilling showcase of digital dominance.
+
+Dressed in vintage charm and fueled by cutting-edge innovation, Fugeniz.12 isn’t just a tech fest—it’s a rendezvous of visionaries, problem-solvers, and rule-breakers shaping the digital future. Get ready to outsmart, outplay, and out-innovate in a world where only the boldest ideas make it to the top.
+
+Welcome to the Grand Syndicate of Technology—where every move counts, and the future is yours to claim.</p>
           
         </div>
         
 
         <OrnateDevider />
 
-        <EventsCategory />
+        {/* <EventsCategory /> */}
 
         {/* <motion.div 
           className="text-center"
@@ -91,13 +96,26 @@ const AboutSection = () => {
           <p className="italic text-gold text-xl">"In this game, we play until the stakes can go no higher."</p>
           <p className="text-sm text-gray-400 mt-2">— James Bond, Agent 007</p>
         </motion.div> */}
+
+<motion.h2 
+        className="title-font text-4xl text-gold mb-12 text-center "
+        {...fadeInUp}
+        id='theme'
+      >
+        About our Events
+      </motion.h2>
+
+        <div  className="">
+          <p className='mt-3 text-center'>Get ready for an electrifying experience at our tech fest! We bring you a diverse range of events, including hands-on workshops on trending technologies, hackathons to test your coding and problem-solving skills, and esports tournaments for the ultimate gaming showdown. Participate in thrilling competitions, challenge your intellect with brain-teasing CodeHunt games, and immerse yourself in an exciting fun zone filled with interactive activities. Don’t miss out on the vibrant cultural performances that add the perfect touch of entertainment. Whether you're here to innovate, compete, or just have fun, there's something for everyone. Join us and make unforgettable memories!</p>
+          
+        </div>
         
         <motion.div 
-          className="mt-1 text-center"
+          className="mt-3 text-center"
           {...fadeInUp}
         >
           <Link to={'/events'} className="body-font bg-red-900 border-2 border-red-900 text-white hover:bg-red-800 px-8 py-3 text-xl transition-all duration-500 mx-auto">
-              VIEW MORE EVENTS
+              VIEW ALL EVENTS
           </Link>
         </motion.div>
 
