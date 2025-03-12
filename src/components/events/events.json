@@ -17,7 +17,7 @@
             "date": "",
             "time": "",
             "location": "",
-            "image": "",
+            "image": "/images/events/workshops/pcb.png",
             "link": "https://forms.gle/fm2zQHyRk6JNXP828"
         },
         {
@@ -27,7 +27,7 @@
             "date": "",
             "time": "",
             "location": "",
-            "image": "",
+            "image": "/images/events/workshops/excel.png",
             "link": "https://forms.gle/UM1626YnjsjZbAhN8"
         },
         {
@@ -58,6 +58,16 @@
             "time": "10am to 1:00pm",
             "location": "ECE systemlabs",
             "image": "/images/events/ieee/arduino.JPG",
+            "link": ""
+        },
+        {
+            "id": 7,
+            "name": "CNC Workshop",
+            "description": ".",
+            "date": "MARCH 13",
+            "time": ".",
+            "location": "",
+            "image": "/images/events/workshops/cnc.png",
             "link": ""
         }
     ],
@@ -160,8 +170,8 @@
             "id": 1,
             "name": "Thunder Arm",
             "description": "The Ultimate Arm Wrestling Competition.",
-            "date": "MARCH 13",
-            "time": "10:00 AM",
+            "date": "MARCH 14",
+            "time": ".",
             "location": "not specified",
             "image": "/images/events/competition/arm.jpg",
             "link": ""
@@ -171,8 +181,8 @@
             "name": "Chess competition",
             "description": "The Ultimate Chess Competition",
             "date": "MARCH 14",
-            "time": "3:00 PM",
-            "location": "Seminar Hall",
+            "time": ".",
+            "location": ".",
             "image": "/images/events/competition/chess.png",
             "link": ""
         },
@@ -193,7 +203,7 @@
             "date": "MARCH 13, 14",
             "time": "10am to 5pm",
             "location": "W241",
-            "image": "",
+            "image": "/images/events/competition/maze.png",
             "link": "https://forms.gle/CLHBfHU5gai1AiyT7"
         },
         {
@@ -203,7 +213,7 @@
             "date": "",
             "time": "",
             "location": "",
-            "image": "",
+            "image": "/images/events/competition/voyage.png",
             "link": "https://forms.gle/Z5ms7tMcYLD8Ti8K6"
         },
         {
@@ -213,7 +223,7 @@
             "date": "",
             "time": "",
             "location": "",
-            "image": "",
+            "image": "/images/events/competition/ecoprint.png",
             "link": "https://forms.gle/uCVZc9JkywWqxyud9"
         },
         {
@@ -234,6 +244,36 @@
             "time": "11am to 1pm",
             "location": "Adithya Lab",
             "image": "/images/events/ieee/breakthecode.JPG",
+            "link": ""
+        },
+        {
+            "id": 9,
+            "name": "Paper Titan",
+            "description": "",
+            "date": "MARCH 14",
+            "time": ".",
+            "location": ".",
+            "image": "/images/events/competition/papertitan.png",
+            "link": ""
+        },
+        {
+            "id": 10,
+            "name": "Tech Trivia",
+            "description": "",
+            "date": "MARCH 13",
+            "time": "",
+            "location": "",
+            "image": "/images/events/competition/trivia.png",
+            "link": ""
+        },
+        {
+            "id": 11,
+            "name": "Art using Generative AI",
+            "description": "",
+            "date": "MARCH 14",
+            "time": "",
+            "location": "",
+            "image": "/images/events/competition/genai.png",
             "link": ""
         }
     ],
@@ -267,6 +307,16 @@
             "location": "College premises",
             "image": "/images/events/ieee/fun.png",
             "link": ""
+        },
+        {
+            "id": 4,
+            "name": "Model Exhibition",
+            "description": "",
+            "date": "MARCH 13 , 14",
+            "time": "",
+            "location": "",
+            "image": "/images/events/funzone/model.png",
+            "link": ""
         }
     ],
     "cultural": [
@@ -298,6 +348,16 @@
             "time": "10:00 AM",
             "location": "not specified",
             "image": "/images/events/cultural/mrfug.png",
+            "link": ""
+        },
+        {
+            "id": 4,
+            "name": "Thunder Arm",
+            "description": "The Ultimate Arm Wrestling Competition.",
+            "date": "MARCH 14",
+            "time": ".",
+            "location": "not specified",
+            "image": "/images/events/competition/arm.jpg",
             "link": ""
         }
     ],
